@@ -48,6 +48,7 @@ module.exports = (sequelize, DataTypes) => {
     },
 
     soundcloud: {
+      type: DataTypes.STRING,
       allNull: false,
       unique: true,
       validate: {
@@ -56,6 +57,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     facebook: {
+      type: DataTypes.STRING,
       allNull: false,
       unique: true,
       validate: {
@@ -64,6 +66,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     instagram: {
+      type: DataTypes.STRING,
       allNull: false,
       unique: true,
       validate: {
@@ -72,6 +75,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     spotify: {
+      type: DataTypes.STRING,
       allNull: false,
       unique: true,
       validate: {
@@ -80,6 +84,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     beatport: {
+      type: DataTypes.STRING,
       allNull: false,
       unique: true,
       validate: {
@@ -88,6 +93,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     mixcloud: {
+      type: DataTypes.STRING,
       allNull: false,
       unique: true,
       validate: {
@@ -96,6 +102,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     youtube: {
+      type: DataTypes.STRING,
       allNull: false,
       unique: true,
       validate: {
